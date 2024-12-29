@@ -1,4 +1,3 @@
-# 1. Faça um programa que receba dois números inteiros e mostre qual deles é o maior
 """
 Modo tradicional:
 valor1, valor2 = map(int, input('Digite dois números inteiros separados por espaço: ').split())
@@ -18,11 +17,16 @@ max(...) O que faz: Determina o maior valor na sequência de inteiros retornada 
 f"O maior número é: { max(..) }" O que faz: Formata a mensagem de saída usando uma f-string.
 
 """
+from math import sqrt
+
+# 1. Faça um programa que receba dois números inteiros e mostre qual deles é o maior
 print(f"O maior número é: {max(map(int, input('Digite dois números inteiros separados por espaço: ').split()))}")
 valor1, valor2 = map(int, input('Digite dois números inteiros separados por espaço: ').split())
 
 if valor1 > valor2:
     print(f"O número maior é:{valor1}")
+elif valor1 == valor2:
+    print(f"Os números {valor1} e {valor2} são iguais.")
 else:
     print(f"O número maior é: {valor2}")
 
@@ -31,7 +35,7 @@ else:
 # número é inválido.
 
 n = int(input("Digite um número inteiro: "))
-print(f"A raiz quadrada é: {n ** 0.5}" if n >= 0 else "Número inválido")
+print(f"A raiz quadrada é: {sqrt(n)}" if n >= 0 else "Número inválido")
 
 # 3. Faça um programa que recebe um número inteiro e informe se este número é par ou ímpar.
 print("Par" if (n := int(input("Digite um número inteiro: "))) % 2 == 0 else "Ímpar")
