@@ -2,11 +2,15 @@
 
 # 1. Faça um programa que leia um número inteiro e imprima-o
 numero = input("Digite um número inteiro: ")
+
 print(f"O número digitado foi {numero}")
 
 # 2. Faça um programa que peça para o usuário digitar três valores inteiro e imprima a soma deles.
 val1, val2, val3 = map(int, input("Digite três números inteiros separados por espaço: ").split())
-print(f"Os valores digitados foram, {val1}, {val2}, {val3}")
+
+soma = val1 + val2 +val3
+
+print(f"A soma dos valores digitados são: {soma}")
 
 # 3. Faça um programa que recebe três valores e apresente a soma dos quadrados dos valores lidos.
 
