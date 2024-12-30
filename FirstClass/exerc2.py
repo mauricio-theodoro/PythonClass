@@ -11,8 +11,8 @@ explicando o : print(f"O maior número é: {max(map(int, input('Digite dois núm
 input('Digite dois números inteiros separados por espaço: ') O que faz: Exibe a mensagem no terminal pedindo que o usuário insira dois números inteiros separados por espaço.
 .split() O que faz: Divide a string retornada por input() em uma lista de substrings, separando-as com base no espaço.
 
-map(int, ...) O que faz: Converte cada elemento da lista retornada por .split() de string para inteiro. ou seja, vai criar não só 2 variaveis, mas a quantidade que o usuário for digitando, é uma lista! então não tem necessidade de criar variaveis. o map um loop explícito
-max(...) O que faz: Determina o maior valor na sequência de inteiros retornada pelo map. essa função simplesmente busca o maior valor na lista, já fazendo a comparação entre elas.
+map(int, ...) O que faz: Converte cada elemento da lista retornada por .split() de string para inteiro. ou seja, vai criar não só 2 variaveis, mas a quantidade que o usuário for digitando, é uma lista! então não tem necessidade de criar variaveis. o map é um loop explícito
+max(...) O que faz: Determina o maior valor na sequência de inteiros retornada pelo map. essa função simplesmente busca o maior valor na lista, já fazendo a comparação entre eles.
 
 f"O maior número é: { max(..) }" O que faz: Formata a mensagem de saída usando uma f-string.
 
@@ -21,6 +21,8 @@ from math import sqrt
 
 # 1. Faça um programa que receba dois números inteiros e mostre qual deles é o maior
 print(f"O maior número é: {max(map(int, input('Digite dois números inteiros separados por espaço: ').split()))}")
+
+
 valor1, valor2 = map(int, input('Digite dois números inteiros separados por espaço: ').split())
 
 if valor1 > valor2:

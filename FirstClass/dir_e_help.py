@@ -11,4 +11,4 @@ para determinado tipo de dado ou variável.
 help(tido de dado/variavel.propriedade)
 """
 
-print(dir('geek'))
+print(dir('harry'))
