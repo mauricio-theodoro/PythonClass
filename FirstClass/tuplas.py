@@ -175,3 +175,5 @@ nova = nova + outra
 
 print(nova)
 print(tupla)
+
+#TUPLAS POSSUI INDICE INDEX
