@@ -12,3 +12,4 @@ help(tido de dado/variavel.propriedade)
 """
 
 print(dir('harry'))
+help(print)

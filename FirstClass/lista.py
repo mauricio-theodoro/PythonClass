@@ -15,6 +15,8 @@ Já em Python:
 - Qualquer tipo de dado: As listas não possuem tipo de dado fixo; Podemos colocar qualquer tipo de dado;
 
 As listas em Python são representadas por colchetes: []
+
+Listas são mutáveis: Ou seja, elas podem mudar constantemente.
 """
 
 """

@@ -25,6 +25,7 @@ print(f"O maior número é: {max(map(int, input('Digite dois números inteiros s
 
 valor1, valor2 = map(int, input('Digite dois números inteiros separados por espaço: ').split())
 
+
 if valor1 > valor2:
     print(f"O número maior é:{valor1}")
 elif valor1 == valor2:
@@ -41,3 +42,6 @@ print(f"A raiz quadrada é: {sqrt(n)}" if n >= 0 else "Número inválido")
 
 # 3. Faça um programa que recebe um número inteiro e informe se este número é par ou ímpar.
 print("Par" if (n := int(input("Digite um número inteiro: "))) % 2 == 0 else "Ímpar")
+
+# Soma de 2 números ou +
+print("Resultado:", (sum(map(int, input('Digite dois números inteiros separados por espaço para serem somados: ').split()))))
